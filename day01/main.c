@@ -11,11 +11,11 @@ int main(void)
 //修改 main.c，让程序输出三行不同的信息。
 
     int age = 21;
-    double high = 170;
+    double high = 170.0;
     int weight = 56；
     char a = 'a';
     
-    printf("age\n");
+    printf("%d\n,age");
     printf("high\n");
     printf（"weight\n");
     printf("a\n");
