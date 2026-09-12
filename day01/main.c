@@ -12,10 +12,12 @@ int main(void)
 
     int age = 21;
     double high = 170;
+    int weight = 56；
     char a = 'a';
     
     printf("age\n");
     printf("high\n");
+    printf（"weight\n");
     printf("a\n");
 
     return 0;
