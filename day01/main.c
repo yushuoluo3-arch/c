@@ -15,11 +15,10 @@ int main(void)
     int weight = 56;
     char a = 'a';
     
-    printf("%d\n",age);    
-    printf("%.1f\n",height);
-    printf("%d\n",weight);
-    printf("%c\n",a);
-    printf("年龄%d身高%f体重%d",age,height,weight);
+ 
+    printf("年龄:%d身高:%.1f体重:%d",age,height,weight);
+    printf("字母:%c\n",a);
+    printf("day1完成.\n");
 
     return 0;
 }
