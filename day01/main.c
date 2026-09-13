@@ -16,10 +16,10 @@ int main(void)
     char a = 'a';
     
     printf("%d\n",age);    
-    printf("%f\n",height);
+    printf("%.1f\n",height);
     printf("%d\n",weight);
     printf("%c\n",a);
-    printf("年龄%d\n身高%f\n体重%d\n",age,height,weight);
+    printf("年龄%d身高%f体重%d",age,height,weight);
 
     return 0;
 }
