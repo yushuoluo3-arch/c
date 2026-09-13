@@ -17,7 +17,7 @@ int main(void)
     
     printf("%d\n,age");
     printf("high\n");
-    printf（"weight\n");
+    printf（"%d\n,weight");
     printf("a\n");
 
     return 0;
