@@ -10,15 +10,16 @@ int main(void)
 //定义三个变量：年龄、身高、体重，并一次性输出。
 //修改 main.c，让程序输出三行不同的信息。
 
-    int age = 21;
-    double height = 170.0;
+    int age = 21;       
+    double height = 170.0;  
     int weight = 56;
     char a = 'a';
     
-    printf("%d\n",age);
+    printf("%d\n",age);    
     printf("%f\n",height);
     printf("%d\n",weight);
     printf("%c\n",a);
+    printf("年龄%d\n身高%f\n体重%d\n",age,height,weight);
 
     return 0;
 }
