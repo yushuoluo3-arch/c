@@ -12,13 +12,13 @@ int main(void)
 
     int age = 21;
     double height = 170.0;
-    int weight = 56；
+    int weight = 56;
     char a = 'a';
     
-    printf("%d\n"，age);
+    printf("%d\n",age);
     printf("%f\n",height);
-    printf("%d\n,"weight);
-    printf("a\n");
+    printf("%d\n",weight);
+    printf("%c\n",a);
 
     return 0;
 }
